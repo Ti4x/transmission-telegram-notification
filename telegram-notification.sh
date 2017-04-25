@@ -10,6 +10,6 @@
 testo="Download Torrent completato: ${TR_TORRENT_NAME}" 
 
 # <TUO_ID> è il vostro id univoco telegram, lo trovate scrivendo al bot e usando la funzione
-# getupdates al posot di sendMessage
+# getupdates al posto di sendMessage
 
 curl -s -X POST "https://api.telegram.org/bot<BOT_TOKEN>/sendMessage?chat_id=<TUO_ID>=${testo}"
